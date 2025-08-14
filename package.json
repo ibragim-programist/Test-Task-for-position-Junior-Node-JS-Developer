@@ -1,0 +1,36 @@
+{
+  "type": "module",
+  "name": "test-task",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "ts-node --esm src/server.ts",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --config jest.config.ts",
+    "comment": "Не пытайтесь это запустить, это комментарий насчет скрипта тест ( не обращайте внимания на него, он такой длинный из-за DeepSeek( он мне подсказал эту команду, по другому не работало ))"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/cookie-parser": "^1.4.9",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.2.1",
+    "@types/validator": "^13.15.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jest": "^30.0.5",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2",
+    "validator": "^13.15.15"
+  },
+  "devDependencies": {
+    "cross-env": "^10.0.0",
+    "ts-jest": "^29.4.1"
+  }
+}
